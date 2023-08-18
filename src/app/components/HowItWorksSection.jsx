@@ -41,7 +41,7 @@ const HowItWorks = () => {
                 fontWeight: 500,
               }}
             >
-              🚀 Ready to dive in? Let's unveil the process:
+              🚀 Ready to dive in? Let &apos s unveil the process:
             </Typography>
           </AwesomeReveal>
           <div className="flex flex-col md:flex-row justify-center items-center gap-6 mt-6">

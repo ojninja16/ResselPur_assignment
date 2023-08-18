@@ -64,7 +64,7 @@ const WhyChooseUs = () => {
                     fontSize: '1.25rem',
                   }}
                 >
-                  Discover a diverse range of one-of-a-kind items you won't find anywhere else.
+                  Discover a diverse range of one-of-a-kind items you won &apos t find anywhere else.
                 </Typography>
               </AwesomeReveal>
             </Grid>
