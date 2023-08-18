@@ -25,3 +25,44 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+  z-index: 1000;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 1s ease forwards;
+}
+
+@keyframes gradient-animation {
+  0% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  }
+  50% {
+    text-shadow: 0 0 40px rgba(255, 255, 255, 1);
+  }
+  100% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  }
+}
+
+.animated-text {
+  animation: gradient-animation 3s infinite;
+}
